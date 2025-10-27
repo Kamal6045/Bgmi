@@ -14,7 +14,7 @@ from threading import Thread
 loop = asyncio.get_event_loop()
 TOKEN = '7227378994:AAFotXOJOecgGOQJgwwi6c-Sab6dUIrmfmc'
 MONGO_URI = 'mongodb+srv://ihatemosquitos9:JvOK4gNs0SH5SVw9@cluster0.1pd5kt5.mongodb.net/?appName=Cluster0'
-CHANNEL_ID = -1002416240231
+CHANNEL_ID = -4815491305
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 client = MongoClient(MONGO_URI, tlsCAFile=certifi.where())
